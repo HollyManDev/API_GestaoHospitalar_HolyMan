@@ -86,7 +86,6 @@ namespace GestaoHospitalar.Services.MedicoServices
                     Telefone = newMedico.Telefone,
                     Email = newMedico.Email,
                     Endereco = newMedico.Endereco,
-                    Certificacoes = newMedico.Certificacoes,
                     HorarioTrabalho = newMedico.HorarioTrabalho,
                     Status = newMedico.Status,
                 };
@@ -129,7 +128,6 @@ namespace GestaoHospitalar.Services.MedicoServices
                     medico.Telefone = updateMedico.Telefone;
                     medico.Email = updateMedico.Email;
                     medico.Endereco = updateMedico.Endereco;
-                    medico.Certificacoes = updateMedico.Certificacoes;
                     medico.HorarioTrabalho = updateMedico.HorarioTrabalho;
                     medico.Status  = updateMedico.Status;
 

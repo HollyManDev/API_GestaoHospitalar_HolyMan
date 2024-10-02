@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HolyMan\\Projectos\\GestaoHospitalarAPI\\GestaoHospitalar\\GestaoHospitalar.csproj": {}
+    "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\GestaoHospitalar.csproj": {}
   },
   "projects": {
-    "D:\\HolyMan\\Projectos\\GestaoHospitalarAPI\\GestaoHospitalar\\GestaoHospitalar.csproj": {
+    "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\GestaoHospitalar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HolyMan\\Projectos\\GestaoHospitalarAPI\\GestaoHospitalar\\GestaoHospitalar.csproj",
+        "projectUniqueName": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\GestaoHospitalar.csproj",
         "projectName": "GestaoHospitalar",
-        "projectPath": "D:\\HolyMan\\Projectos\\GestaoHospitalarAPI\\GestaoHospitalar\\GestaoHospitalar.csproj",
+        "projectPath": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\GestaoHospitalar.csproj",
         "packagesPath": "C:\\Users\\heska\\.nuget\\packages\\",
-        "outputPath": "D:\\HolyMan\\Projectos\\GestaoHospitalarAPI\\GestaoHospitalar\\obj\\",
+        "outputPath": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

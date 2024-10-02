@@ -43,10 +43,10 @@ namespace GestaoHospitalar.Controllers
             return Ok(await _departamentoInterface.UpdateDepartamento(updateDepartamento));
         }
 
-        [HttpPut("Inactivate/{id}")]
-        public async Task<ActionResult<ServiceResponse<List<DepartamentosFuncionarios>>>> InactivateDepartamento(int id)
+        [HttpPut("Inactivate")]
+        public async Task<ActionResult<ServiceResponse<List<DepartamentosFuncionarios>>>> InactivateDepartamento(DepartamentoView dept)
         {
-            return Ok(await _departamentoInterface.InactivateDepartamento(id));
+            return Ok(await _departamentoInterface.InactivateDepartamento(dept.DepartamentoID));
         }
 
         [HttpPut("Activate/{id}")]

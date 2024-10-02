@@ -27,6 +27,10 @@ namespace GestaoHospitalar.Services.EspecialidadeServices
             {
                 serviceResponse.Data = await _context.Especialidades.ToListAsync();
 
+                //serviceResponse.Data = await _context.Especialidades
+                                 //  .Where(e => e.Status == true)
+                                   //.ToListAsync();
+
                 if (!serviceResponse.Data.Any())
                 {
                     serviceResponse.menssage = "No data available!";

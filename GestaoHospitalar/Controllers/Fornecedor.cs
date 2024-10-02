@@ -43,10 +43,10 @@ namespace GestaoHospitalar.Controllers
             return Ok(await _fornecedorInterface.UpdateFornecedor(updateFornecedor));
         }
 
-        [HttpPut("Inactivate/{id}")]
-        public async Task<ActionResult<ServiceResponse<List<Fornecedor>>>> InactivateFornecedor(int id)
+        [HttpPut("Inactivate")]
+        public async Task<ActionResult<ServiceResponse<List<Fornecedor>>>> InactivateFornecedor(FornecedorView forn)
         {
-            return Ok(await _fornecedorInterface.InactivateFornecedor(id));
+            return Ok(await _fornecedorInterface.InactivateFornecedor(forn.FornecedorID));
         }
 
         [HttpPut("Activate/{id}")]

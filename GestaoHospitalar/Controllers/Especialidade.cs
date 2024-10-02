@@ -55,10 +55,10 @@ namespace GestaoHospitalar.Controllers
             return NotFound(response);
         }
 
-        [HttpPut("Delete{id}")]
-        public async Task<ActionResult<ServiceResponse<List<Especialidade>>>> DeleteEspecialidade(int id)
+        [HttpPut("Delete")]
+        public async Task<ActionResult<ServiceResponse<List<Especialidade>>>> DeleteEspecialidade(EspecialidadeView esp)
         {
-            var response = await _especialidadeService.DeleteEspecialidade(id);
+            var response = await _especialidadeService.DeleteEspecialidade(esp.EspecialidadeID);
             if (response.Success)
                 return Ok(response);
             return NotFound(response);

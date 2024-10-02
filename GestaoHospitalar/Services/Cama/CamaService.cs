@@ -8,24 +8,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace GestaoHospitalar.Services.LeitoServices
+namespace GestaoHospitalar.Services.CamaServices
 {
-    public class LeitoService : LeitoInterface
+    public class CamaService : CamaInterface
     {
         private readonly ApplicationDbContext _context;
 
-        public LeitoService(ApplicationDbContext context)
+        public CamaService(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public async Task<ServiceResponse<List<Leito>>> GetLeitos()
+        public async Task<ServiceResponse<List<Cama>>> GetCamas()
         {
-            var serviceResponse = new ServiceResponse<List<Leito>>();
+            var serviceResponse = new ServiceResponse<List<Cama>>();
 
             try
             {
-                serviceResponse.Data = await _context.Leitos.ToListAsync();
+                serviceResponse.Data = await _context.Camas.ToListAsync();
 
                 if (!serviceResponse.Data.Any())
                 {
@@ -41,23 +41,23 @@ namespace GestaoHospitalar.Services.LeitoServices
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<Leito>> FindLeito(int id)
+        public async Task<ServiceResponse<Cama>> FindCama(int id)
         {
-            var serviceResponse = new ServiceResponse<Leito>();
+            var serviceResponse = new ServiceResponse<Cama>();
 
             try
             {
-                var leito = await _context.Leitos.FirstOrDefaultAsync(l => l.LeitoID == id);
+                var cama = await _context.Camas.FirstOrDefaultAsync(c => c.CamaID == id);
 
-                if (leito == null)
+                if (cama == null)
                 {
                     serviceResponse.Data = null;
-                    serviceResponse.menssage = "Leito not found!";
+                    serviceResponse.menssage = "Cama not found!";
                     serviceResponse.Success = false;
                 }
                 else
                 {
-                    serviceResponse.Data = leito;
+                    serviceResponse.Data = cama;
                 }
             }
             catch (Exception ex)
@@ -69,21 +69,22 @@ namespace GestaoHospitalar.Services.LeitoServices
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<Leito>>> CreateLeito(LeitoView newLeito)
+        public async Task<ServiceResponse<List<Cama>>> CreateCama(CamaView newCama)
         {
-            var serviceResponse = new ServiceResponse<List<Leito>>();
+            var serviceResponse = new ServiceResponse<List<Cama>>();
 
             try
             {
-                var leito = new Leito
+                var cama = new Cama
                 {
-                    Descricao = newLeito.Descricao,
-                    Status = newLeito.Status
+                    LeitoID = newCama.LeitoID,
+                    Descricao = newCama.Descricao,
+                    Status = newCama.Status
                 };
 
-                _context.Leitos.Add(leito);
+                _context.Camas.Add(cama);
                 await _context.SaveChangesAsync();
-                serviceResponse.Data = await _context.Leitos.ToListAsync();
+                serviceResponse.Data = await _context.Camas.ToListAsync();
             }
             catch (Exception ex)
             {
@@ -94,28 +95,29 @@ namespace GestaoHospitalar.Services.LeitoServices
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<Leito>>> UpdateLeito(LeitoView updateLeito)
+        public async Task<ServiceResponse<List<Cama>>> UpdateCama(CamaView updateCama)
         {
-            var serviceResponse = new ServiceResponse<List<Leito>>();
+            var serviceResponse = new ServiceResponse<List<Cama>>();
 
             try
             {
-                var leito = await _context.Leitos.FirstOrDefaultAsync(l => l.LeitoID == updateLeito.LeitoID);
+                var cama = await _context.Camas.FirstOrDefaultAsync(c => c.CamaID == updateCama.CamaID);
 
-                if (leito == null)
+                if (cama == null)
                 {
                     serviceResponse.Data = null;
-                    serviceResponse.menssage = "Leito not found!";
+                    serviceResponse.menssage = "Cama not found!";
                     serviceResponse.Success = false;
                 }
                 else
                 {
-                    leito.Descricao = updateLeito.Descricao;
-                    leito.Status = updateLeito.Status;
+                    cama.LeitoID = updateCama.LeitoID;
+                    cama.Descricao = updateCama.Descricao;
+                    cama.Status = updateCama.Status;
 
-                    _context.Leitos.Update(leito);
+                    _context.Camas.Update(cama);
                     await _context.SaveChangesAsync();
-                    serviceResponse.Data = await _context.Leitos.ToListAsync();
+                    serviceResponse.Data = await _context.Camas.ToListAsync();
                 }
             }
             catch (Exception ex)
@@ -127,26 +129,26 @@ namespace GestaoHospitalar.Services.LeitoServices
             return serviceResponse;
         }
 
-        public async Task<ServiceResponse<List<Leito>>> DeleteLeito(int id)
+        public async Task<ServiceResponse<List<Cama>>> DeleteCama(int id)
         {
-            var serviceResponse = new ServiceResponse<List<Leito>>();
+            var serviceResponse = new ServiceResponse<List<Cama>>();
 
             try
             {
-                var leito = await _context.Leitos.FirstOrDefaultAsync(l => l.LeitoID == id);
+                var cama = await _context.Camas.FirstOrDefaultAsync(c => c.CamaID == id);
 
-                if (leito == null)
+                if (cama == null)
                 {
                     serviceResponse.Data = null;
-                    serviceResponse.menssage = "Leito not found!";
+                    serviceResponse.menssage = "Cama not found!";
                     serviceResponse.Success = false;
                 }
                 else
                 {
-                    leito.Status = false;
-                    _context.Leitos.Update(leito);
+                    cama.Status = false;
+                    _context.Camas.Update(cama);
                     await _context.SaveChangesAsync();
-                    serviceResponse.Data = await _context.Leitos.ToListAsync();
+                    serviceResponse.Data = await _context.Camas.ToListAsync();
                 }
             }
             catch (Exception ex)

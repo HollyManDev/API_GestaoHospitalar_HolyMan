@@ -7,7 +7,7 @@ namespace GestaoHospitalar.Models
     {
         [Key]
         public int LeitoID { get; set; }
-        public string NumeroLeito { get; set; }
+        public string Descricao { get; set; }
         public Boolean Status { get; set; }
         public ICollection<Paciente> Pacientes { get; set; }
 

@@ -13,6 +13,7 @@ namespace GestaoHospitalar.DataContext
         // DbSets for your entities
         public DbSet<Paciente> Pacientes { get; set; }
         public DbSet<Medico> Medicos { get; set; }
+        public DbSet<Cama> Camas { get; set; }
         public DbSet<Especialidade> Especialidades { get; set; }
         public DbSet<Consulta> Consultas { get; set; }
         public DbSet<Exame> Exames { get; set; }
@@ -28,6 +29,7 @@ namespace GestaoHospitalar.DataContext
         public DbSet<Fornecedor> Fornecedores { get; set; }
         public DbSet<EquipamentoMedico> EquipamentosMedicos { get; set; }
         public DbSet<Leito> Leitos { get; set; }
+      
         public DbSet<HistoricoVisita> HistoricoVisitas { get; set; }
         public DbSet<DepartamentosFuncionarios> DepartamentosFuncionarios { get; set; }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)

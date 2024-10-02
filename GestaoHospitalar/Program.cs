@@ -21,6 +21,7 @@ using GestaoHospitalar.Services.InventarioMedicamentoServices;
 using GestaoHospitalar.Services.PrescricaoServices;
 using GestaoHospitalar.Services.ReciboServices;
 using GestaoHospitalar.Services.ResultadoExameServices;
+using GestaoHospitalar.Services.CamaServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,6 +40,7 @@ builder.Services.AddScoped<PacienteInterface, PacienteService>();
 builder.Services.AddScoped<DepartamentoInterface, DepartamentoService>();
 builder.Services.AddScoped<FuncionarioInterface, FuncionarioService>();
 builder.Services.AddScoped<LeitoInterface, LeitoService>();
+builder.Services.AddScoped<CamaInterface,CamaService>();
 builder.Services.AddScoped<MedicoInterface, MedicoService>();
 builder.Services.AddScoped<EspecialidadeInterface, EspecialidadeService>();
 builder.Services.AddScoped<ConsultaInterface, ConsultaService>();

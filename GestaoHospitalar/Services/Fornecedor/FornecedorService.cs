@@ -79,7 +79,7 @@ namespace GestaoHospitalar.Services.FornecedorServices
                 var fornecedor = new Fornecedor
                 {
                     Nome = newFornecedor.Nome,
-                    Contato = newFornecedor.Contato,
+                    Nuit =newFornecedor.Nuit,
                     Telefone = newFornecedor.Telefone,
                     Email = newFornecedor.Email,
                     Status = newFornecedor.Status
@@ -117,7 +117,7 @@ namespace GestaoHospitalar.Services.FornecedorServices
                 else
                 {
                     fornecedor.Nome = updateFornecedor.Nome;
-                    fornecedor.Contato = updateFornecedor.Contato;
+                    fornecedor.Nuit = updateFornecedor.Nuit;
                     fornecedor.Telefone = updateFornecedor.Telefone;
                     fornecedor.Email = updateFornecedor.Email;
                     fornecedor.Status = updateFornecedor.Status;

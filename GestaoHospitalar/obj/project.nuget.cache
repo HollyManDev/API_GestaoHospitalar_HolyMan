@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J3Wyt/kmPIftf9QZOSN/p/SG8UJSOBUVm3o90ZyqHnsDIvGKHICxUxSX/WEYqcF6tgPPEUIGkwpc9v9aOEqpuw==",
+  "dgSpecHash": "W4SGxuVDYeT+9sLdavxE8OekqPkoKtXSFfGyM17MJefp6X4DoZkk3e6ZDc7nlh+PoeVhkb3VWWgXknE+9fGC/A==",
   "success": true,
-  "projectFilePath": "D:\\HolyMan\\Projectos\\GestaoHospitalarAPI\\GestaoHospitalar\\GestaoHospitalar.csproj",
+  "projectFilePath": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\GestaoHospitalar.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\heska\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\heska\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
