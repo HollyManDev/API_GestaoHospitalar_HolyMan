@@ -15,7 +15,6 @@ namespace GestaoHospitalar.Models
         public string Telefone { get; set; }
         public string Email { get; set; }
         public string BI { get; set; }
-        public string Fotografia { get; set; }
         public string ContatoEmergenciaNome { get; set; }
         public string ContatoEmergenciaTelefone { get; set; }
         public string ContatoEmergenciaRelacao { get; set; }

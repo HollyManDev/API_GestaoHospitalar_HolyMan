@@ -85,7 +85,6 @@ namespace GestaoHospitalar.Services.PacienteServices
                     Telefone = newPaciente.Telefone,
                     Email = newPaciente.Email,
                     BI = newPaciente.BI,
-                    Fotografia = newPaciente.Fotografia,
                     ContatoEmergenciaNome = newPaciente.ContatoEmergenciaNome,
                     ContatoEmergenciaTelefone = newPaciente.ContatoEmergenciaTelefone,
                     ContatoEmergenciaRelacao = newPaciente.ContatoEmergenciaRelacao,
@@ -133,7 +132,6 @@ namespace GestaoHospitalar.Services.PacienteServices
                     paciente.Telefone = updatePaciente.Telefone;
                     paciente.Email = updatePaciente.Email;
                     paciente.BI = updatePaciente.BI;
-                    paciente.Fotografia = updatePaciente.Fotografia;
                     paciente.ContatoEmergenciaNome = updatePaciente.ContatoEmergenciaNome;
                     paciente.ContatoEmergenciaTelefone = updatePaciente.ContatoEmergenciaTelefone;
                     paciente.ContatoEmergenciaRelacao = updatePaciente.ContatoEmergenciaRelacao;

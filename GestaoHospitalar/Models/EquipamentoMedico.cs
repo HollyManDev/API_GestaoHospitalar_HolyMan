@@ -11,6 +11,6 @@ namespace GestaoHospitalar.Models
         public DateTime DataAquisicao { get; set; }
         public Boolean Status { get; set; }
         public string Localizacao { get; set; }
-        public string Imagem { get; set; } // Caminho da imagem
+       
     }
 }

@@ -55,10 +55,10 @@ namespace GestaoHospitalar.Controllers
             return NotFound(response);
         }
 
-        [HttpPut("Delete{id}")]
-        public async Task<ActionResult<ServiceResponse<List<Medico>>>> DeleteMedico(int id)
+        [HttpPut("Inactivate")]
+        public async Task<ActionResult<ServiceResponse<List<Medico>>>> DeleteMedico(MedicoView medico)
         {
-            var response = await _medicoService.DeleteMedico(id);
+            var response = await _medicoService.DeleteMedico(medico.MedicoID);
             if (response.Success)
                 return Ok(response);
             return NotFound(response);

@@ -43,10 +43,10 @@ namespace GestaoHospitalar.Controllers
             return Ok(await _inventarioMedicamentoInterface.UpdateInventarioMedicamento(updateInventarioMedicamento));
         }
 
-        [HttpPut("Inactivate/{id}")]
-        public async Task<ActionResult<ServiceResponse<List<InventarioMedicamento>>>> InactivateInventarioMedicamento(int id)
+        [HttpPut("Inactivate")]
+        public async Task<ActionResult<ServiceResponse<List<InventarioMedicamento>>>> InactivateInventarioMedicamento(InventarioMedicamentoView medicamento)
         {
-            return Ok(await _inventarioMedicamentoInterface.InactivateInventarioMedicamento(id));
+            return Ok(await _inventarioMedicamentoInterface.InactivateInventarioMedicamento(medicamento.MedicamentoID));
         }
 
         [HttpPut("Activate/{id}")]

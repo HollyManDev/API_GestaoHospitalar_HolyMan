@@ -81,7 +81,6 @@ namespace GestaoHospitalar.Services.EquipamentoMedicoServices
                     DataAquisicao = newEquipamentoMedico.DataAquisicao,
                     Status = newEquipamentoMedico.Status,
                     Localizacao = newEquipamentoMedico.Localizacao,
-                    Imagem = newEquipamentoMedico.Imagem // Incluindo a imagem
                 };
 
                 _context.EquipamentosMedicos.Add(equipamentoMedico);
@@ -119,7 +118,6 @@ namespace GestaoHospitalar.Services.EquipamentoMedicoServices
                     equipamentoMedico.DataAquisicao = updateEquipamentoMedico.DataAquisicao;
                     equipamentoMedico.Status = updateEquipamentoMedico.Status;
                     equipamentoMedico.Localizacao = updateEquipamentoMedico.Localizacao;
-                    equipamentoMedico.Imagem = updateEquipamentoMedico.Imagem; // Atualizando a imagem
 
                     _context.EquipamentosMedicos.Update(equipamentoMedico);
                     await _context.SaveChangesAsync();
