@@ -69,6 +69,7 @@ namespace GestaoHospitalar.Services.FuncionarioServices
             return serviceResponse;
         }
 
+
         public async Task<ServiceResponse<List<Funcionario>>> CreateFuncionario(FuncionarioView newFuncionario)
         {
             ServiceResponse<List<Funcionario>> serviceResponse = new ServiceResponse<List<Funcionario>>();
@@ -78,19 +79,25 @@ namespace GestaoHospitalar.Services.FuncionarioServices
                 var funcionarioModel = new Funcionario
                 {
                     Nome = newFuncionario.Nome,
-                    Cargo = newFuncionario.Cargo,
-                    Telefone = newFuncionario.Telefone,
+                    Genero= newFuncionario.Genero,
                     Email = newFuncionario.Email,
+                    Password = "funcionario12",
                     Endereco = newFuncionario.Endereco,
                     DataContratacao = newFuncionario.DataContratacao,
-                    Departamento = newFuncionario.Departamento,
                     Status = newFuncionario.Status,
-                    departamentoFuncionario = await _context.DepartamentosFuncionarios.FindAsync(newFuncionario.DepartamentoFuncionario)
+                    DepartamentoID = newFuncionario.DepartamentoID,
+                    CargoID = newFuncionario.CargoID
                 };
+
+                // Adicionando os telefones
+                foreach (var telefone in newFuncionario.Telefones)
+                {
+                    funcionarioModel.Telefones.Add(new TelefoneFuncionario { Telefone = telefone });
+                }
 
                 _context.Funcionarios.Add(funcionarioModel);
                 await _context.SaveChangesAsync();
-                serviceResponse.Data = await _context.Funcionarios.ToListAsync();
+                serviceResponse.Data = await _context.Funcionarios.Include(f => f.Telefones).ToListAsync();
             }
             catch (Exception ex)
             {
@@ -107,7 +114,7 @@ namespace GestaoHospitalar.Services.FuncionarioServices
 
             try
             {
-                Funcionario gotFuncionario = await _context.Funcionarios.FindAsync(updateFuncionario.FuncionarioID);
+                Funcionario gotFuncionario = await _context.Funcionarios.Include(f => f.Telefones).FirstOrDefaultAsync(f => f.FuncionarioID == updateFuncionario.FuncionarioID);
 
                 if (gotFuncionario == null)
                 {
@@ -118,18 +125,24 @@ namespace GestaoHospitalar.Services.FuncionarioServices
                 else
                 {
                     gotFuncionario.Nome = updateFuncionario.Nome;
-                    gotFuncionario.Cargo = updateFuncionario.Cargo;
-                    gotFuncionario.Telefone = updateFuncionario.Telefone;
+                    gotFuncionario.Genero = updateFuncionario.Genero;
                     gotFuncionario.Email = updateFuncionario.Email;
                     gotFuncionario.Endereco = updateFuncionario.Endereco;
                     gotFuncionario.DataContratacao = updateFuncionario.DataContratacao;
-                    gotFuncionario.Departamento = updateFuncionario.Departamento;
                     gotFuncionario.Status = updateFuncionario.Status;
-                    gotFuncionario.departamentoFuncionario = await _context.DepartamentosFuncionarios.FindAsync(updateFuncionario.DepartamentoFuncionario);
+                    gotFuncionario.DepartamentoID = updateFuncionario.DepartamentoID;
+                    gotFuncionario.CargoID = updateFuncionario.CargoID;
+
+                    // Atualizar Telefones: Remove os telefones antigos e adiciona os novos
+                    _context.TelefoneFuncionario.RemoveRange(gotFuncionario.Telefones);
+                    foreach (var telefone in updateFuncionario.Telefones)
+                    {
+                        gotFuncionario.Telefones.Add(new TelefoneFuncionario { Telefone = telefone });
+                    }
 
                     _context.Funcionarios.Update(gotFuncionario);
                     await _context.SaveChangesAsync();
-                    serviceResponse.Data = await _context.Funcionarios.ToListAsync();
+                    serviceResponse.Data = await _context.Funcionarios.Include(f => f.Telefones).ToListAsync();
                 }
             }
             catch (Exception ex)
@@ -140,6 +153,7 @@ namespace GestaoHospitalar.Services.FuncionarioServices
 
             return serviceResponse;
         }
+
 
         public async Task<ServiceResponse<List<Funcionario>>> InactivateFuncionario(int id)
         {

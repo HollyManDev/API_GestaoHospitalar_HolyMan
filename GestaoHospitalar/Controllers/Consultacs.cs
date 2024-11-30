@@ -1,6 +1,7 @@
 ﻿using GestaoHospitalar.Models;
 using GestaoHospitalar.ModelsView;
 using GestaoHospitalar.ServerResponse;
+using GestaoHospitalar.Services.AgendamentoServices;
 using GestaoHospitalar.Services.ConsultaServices;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -53,6 +54,12 @@ namespace GestaoHospitalar.Controllers
         public async Task<ActionResult<ServiceResponse<List<Consulta>>>> ActivateConsulta(int id)
         {
             return Ok(await _consultaInterface.ActivateConsulta(id));
+        }
+
+        [HttpGet("ByMedico/{medicoId}")]
+        public async Task<ActionResult<ServiceResponse<List<Agendamento>>>> GetConsultaByMedico(int medicoId)
+        {
+            return Ok(await _consultaInterface.GetConsultaByMedico(medicoId));
         }
     }
 }

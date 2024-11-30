@@ -7,5 +7,6 @@
         public int Quantidade { get; set; }
         public DateTime DataValidade { get; set; }
         public int FornecedorID { get; set; }
+        public Boolean Status { get; set; }
     }
 }

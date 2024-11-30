@@ -3,128 +3,88 @@
   "WorkspaceRootPath": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\pacienteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\pacienteview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\agendamento\\agendamentoservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\agendamento\\agendamentoservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\inventariomedicamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\inventariomedicamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\authenticacao\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\authenticacao\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\controllers\\equipamentomedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:controllers\\equipamentomedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\controllers\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:controllers\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\equipamentomedicoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\equipamentomedicoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20241003132500_Tirando_Imagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20241003132500_Tirando_Imagens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\paciente\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\paciente\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\equipamentomedico\\equipamentomedicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\equipamentomedico\\equipamentomedicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\equipamentomedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\equipamentomedico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\controllers\\inventariomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:controllers\\inventariomedicamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\controllers\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:controllers\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\funcionario\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\funcionario\\funcionarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\medico\\medicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\medico\\medicoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\migrations\\20241002125533_tirando_foto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:migrations\\20241002125533_tirando_foto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\paciente\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\paciente\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\funcionarioview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\funcionarioview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\medicoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\medicoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\medico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\exame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\exame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\documentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\documentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\departamentosfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\departamentosfuncionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\fornecedor\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\fornecedor\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\consulta\\consultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\consulta\\consultaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\fornecedorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\fornecedorview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\controllers\\cama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:controllers\\cama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\controllers\\leito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:controllers\\leito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\leito\\leitoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\leito\\leitoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\controllers\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:controllers\\fornecedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\cama\\camaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\cama\\camaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\agendamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\agendamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\cama\\camainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\cama\\camainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\outros\\outrointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\outros\\outrointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\camaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\camaview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\cama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\cama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\cama\\camaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\cama\\camaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\cargo\\cargointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\cargo\\cargointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\leito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\leito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\departamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\departamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\controllers\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:controllers\\departamentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\fornecedor\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\fornecedor\\fornecedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\cama\\camainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\cama\\camainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\services\\especialidade\\especialidadeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -151,10 +111,6 @@
       "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\especialidade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\models\\leito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:models\\leito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\leitoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\leitoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -163,20 +119,8 @@
       "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:services\\departamentosfuncionarios\\departamentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\modelsview\\departamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:modelsview\\departamentoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\migrations\\20240927145635_123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:migrations\\20240927145635_123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\migrations\\20240927140602_addcama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:migrations\\20240927140602_addcama.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\migrations\\20240930120250_ghj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:migrations\\20240930120250_ghj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|d:\\holyman\\projectos\\api_gestaohospitalar\\gestaohospitalar\\migrations\\20241129084158_teste123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9394EEB5-EE13-4594-9A96-AC2ADF288EA8}|GestaoHospitalar.csproj|solutionrelative:migrations\\20241129084158_teste123.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -186,469 +130,273 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EquipamentoMedico.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\EquipamentoMedico.cs",
-              "RelativeDocumentMoniker": "Controllers\\EquipamentoMedico.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\EquipamentoMedico.cs",
-              "RelativeToolTip": "Controllers\\EquipamentoMedico.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAIAwwC8AAAAIAAAA",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Authenticacao\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Services\\Authenticacao\\AuthenticationService.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Authenticacao\\AuthenticationService.cs",
+              "RelativeToolTip": "Services\\Authenticacao\\AuthenticationService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwEAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:40:45.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20241003132500_Tirando_Imagens.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20241003132500_Tirando_Imagens.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241003132500_Tirando_Imagens.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20241003132500_Tirando_Imagens.cs",
-              "RelativeToolTip": "Migrations\\20241003132500_Tirando_Imagens.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:25:00.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PacienteService.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Paciente\\PacienteService.cs",
-              "RelativeDocumentMoniker": "Services\\Paciente\\PacienteService.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Paciente\\PacienteService.cs",
-              "RelativeToolTip": "Services\\Paciente\\PacienteService.cs",
-              "ViewState": "AQIAANMAAAAAAAAAAAAwwIUAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:24:04.775Z",
+              "WhenOpened": "2024-11-29T09:18:12.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PacienteView.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\PacienteView.cs",
-              "RelativeDocumentMoniker": "ModelsView\\PacienteView.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\PacienteView.cs",
-              "RelativeToolTip": "ModelsView\\PacienteView.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvxYAAAAAAAAA",
+              "Title": "AgendamentoServicecs.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Agendamento\\AgendamentoServicecs.cs",
+              "RelativeDocumentMoniker": "Services\\Agendamento\\AgendamentoServicecs.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Agendamento\\AgendamentoServicecs.cs",
+              "RelativeToolTip": "Services\\Agendamento\\AgendamentoServicecs.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAuwM0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:23:23.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Funcionario.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Funcionario.cs",
-              "RelativeDocumentMoniker": "Models\\Funcionario.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Funcionario.cs",
-              "RelativeToolTip": "Models\\Funcionario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:21:54.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EquipamentoMedicoService.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\EquipamentoMedico\\EquipamentoMedicoService.cs",
-              "RelativeDocumentMoniker": "Services\\EquipamentoMedico\\EquipamentoMedicoService.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\EquipamentoMedico\\EquipamentoMedicoService.cs",
-              "RelativeToolTip": "Services\\EquipamentoMedico\\EquipamentoMedicoService.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAgwFIAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:54.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EquipamentoMedico.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\EquipamentoMedico.cs",
-              "RelativeDocumentMoniker": "Models\\EquipamentoMedico.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\EquipamentoMedico.cs",
-              "RelativeToolTip": "Models\\EquipamentoMedico.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:20:28.31Z",
+              "WhenOpened": "2024-11-29T09:17:46.653Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EquipamentoMedicoView.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\EquipamentoMedicoView.cs",
-              "RelativeDocumentMoniker": "ModelsView\\EquipamentoMedicoView.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\EquipamentoMedicoView.cs",
-              "RelativeToolTip": "ModelsView\\EquipamentoMedicoView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Title": "PacienteService.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Paciente\\PacienteService.cs",
+              "RelativeDocumentMoniker": "Services\\Paciente\\PacienteService.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Paciente\\PacienteService.cs",
+              "RelativeToolTip": "Services\\Paciente\\PacienteService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T13:19:44.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T09:13:54.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "InventarioMedicamento.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\InventarioMedicamento.cs",
-              "RelativeDocumentMoniker": "Controllers\\InventarioMedicamento.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\InventarioMedicamento.cs",
-              "RelativeToolTip": "Controllers\\InventarioMedicamento.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAYwCMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T11:21:06.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InventarioMedicamentoView.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\InventarioMedicamentoView.cs",
-              "RelativeDocumentMoniker": "ModelsView\\InventarioMedicamentoView.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\InventarioMedicamentoView.cs",
-              "RelativeToolTip": "ModelsView\\InventarioMedicamentoView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T10:43:15.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "20241002125533_tirando_foto.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20241002125533_tirando_foto.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241002125533_tirando_foto.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20241002125533_tirando_foto.cs",
-              "RelativeToolTip": "Migrations\\20241002125533_tirando_foto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T12:55:33.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Medico.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Medico.cs",
-              "RelativeDocumentMoniker": "Controllers\\Medico.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Medico.cs",
-              "RelativeToolTip": "Controllers\\Medico.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAgwDIAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T12:28:38.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DocumentView.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\DocumentView.cs",
-              "RelativeDocumentMoniker": "ModelsView\\DocumentView.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\DocumentView.cs",
-              "RelativeToolTip": "ModelsView\\DocumentView.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAswAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T10:42:34.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
               "Title": "MedicoService.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Medico\\MedicoService.cs",
               "RelativeDocumentMoniker": "Services\\Medico\\MedicoService.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Medico\\MedicoService.cs",
               "RelativeToolTip": "Services\\Medico\\MedicoService.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAwwEwAAAAIAAAA",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:22:06.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T09:12:31.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MedicoView.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\MedicoView.cs",
-              "RelativeDocumentMoniker": "ModelsView\\MedicoView.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\MedicoView.cs",
-              "RelativeToolTip": "ModelsView\\MedicoView.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA/wAkAAAAsAAAA",
+              "DocumentIndex": 5,
+              "Title": "FuncionarioView.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\FuncionarioView.cs",
+              "RelativeDocumentMoniker": "ModelsView\\FuncionarioView.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\FuncionarioView.cs",
+              "RelativeToolTip": "ModelsView\\FuncionarioView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:21:08.453Z"
+              "WhenOpened": "2024-11-29T08:47:30.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "20240930120250_ghj.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20240930120250_ghj.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240930120250_ghj.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20240930120250_ghj.cs",
-              "RelativeToolTip": "Migrations\\20240930120250_ghj.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Funcionario.cs",
+              "RelativeDocumentMoniker": "Models\\Funcionario.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Funcionario.cs",
+              "RelativeToolTip": "Models\\Funcionario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T12:02:50.767Z"
+              "WhenOpened": "2024-11-29T08:47:11.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Leito.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Leito.cs",
-              "RelativeDocumentMoniker": "Controllers\\Leito.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Leito.cs",
-              "RelativeToolTip": "Controllers\\Leito.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwDwAAABIAAAA",
+              "DocumentIndex": 2,
+              "Title": "FuncionarioService.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Funcionario\\FuncionarioService.cs",
+              "RelativeDocumentMoniker": "Services\\Funcionario\\FuncionarioService.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Funcionario\\FuncionarioService.cs",
+              "RelativeToolTip": "Services\\Funcionario\\FuncionarioService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T04:53:42.719Z"
+              "WhenOpened": "2024-11-29T08:45:41.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "20240927145635_123.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20240927145635_123.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240927145635_123.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20240927145635_123.cs",
-              "RelativeToolTip": "Migrations\\20240927145635_123.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 29,
+              "Title": "20241129084158_teste123.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20241129084158_teste123.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241129084158_teste123.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20241129084158_teste123.cs",
+              "RelativeToolTip": "Migrations\\20241129084158_teste123.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T14:56:35.2Z"
+              "WhenOpened": "2024-11-29T08:41:59.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Fornecedor.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "Controllers\\Fornecedor.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Fornecedor.cs",
-              "RelativeToolTip": "Controllers\\Fornecedor.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAD4vzAAAABXAAAA",
+              "DocumentIndex": 7,
+              "Title": "Exame.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Exame.cs",
+              "RelativeDocumentMoniker": "Models\\Exame.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Exame.cs",
+              "RelativeToolTip": "Models\\Exame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T07:22:08.84Z"
+              "WhenOpened": "2024-11-29T08:35:56.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartamentosFuncionarios.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\DepartamentosFuncionarios.cs",
+              "RelativeDocumentMoniker": "Models\\DepartamentosFuncionarios.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\DepartamentosFuncionarios.cs",
+              "RelativeToolTip": "Models\\DepartamentosFuncionarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:35:54.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ConsultaService.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Consulta\\ConsultaService.cs",
+              "RelativeDocumentMoniker": "Services\\Consulta\\ConsultaService.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Consulta\\ConsultaService.cs",
+              "RelativeToolTip": "Services\\Consulta\\ConsultaService.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAuwKAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:23:54.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AgendamentoView.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\AgendamentoView.cs",
+              "RelativeDocumentMoniker": "ModelsView\\AgendamentoView.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\AgendamentoView.cs",
+              "RelativeToolTip": "ModelsView\\AgendamentoView.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T08:39:01.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OutroInterface.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Outros\\OutroInterface.cs",
+              "RelativeDocumentMoniker": "Services\\Outros\\OutroInterface.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Outros\\OutroInterface.cs",
+              "RelativeToolTip": "Services\\Outros\\OutroInterface.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T11:24:47.312Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "FornecedorView.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\FornecedorView.cs",
-              "RelativeDocumentMoniker": "ModelsView\\FornecedorView.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\FornecedorView.cs",
-              "RelativeToolTip": "ModelsView\\FornecedorView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T14:10:23.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "20240927140602_addCama.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20240927140602_addCama.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240927140602_addCama.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Migrations\\20240927140602_addCama.cs",
-              "RelativeToolTip": "Migrations\\20240927140602_addCama.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T14:06:02.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "LeitoService.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Leito\\LeitoService.cs",
-              "RelativeDocumentMoniker": "Services\\Leito\\LeitoService.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Leito\\LeitoService.cs",
-              "RelativeToolTip": "Services\\Leito\\LeitoService.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAswHAAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T14:05:04.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\DataContext\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "DataContext\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\DataContext\\ApplicationDbContext.cs",
-              "RelativeToolTip": "DataContext\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAIAywB8AAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T14:00:40.149Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Cama.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Cama.cs",
-              "RelativeDocumentMoniker": "Controllers\\Cama.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Cama.cs",
-              "RelativeToolTip": "Controllers\\Cama.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAgwDkAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T13:59:32.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
               "Title": "CamaInterface.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Cama\\CamaInterface.cs",
               "RelativeDocumentMoniker": "Services\\Cama\\CamaInterface.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Cama\\CamaInterface.cs",
               "RelativeToolTip": "Services\\Cama\\CamaInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:57:19.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 14,
               "Title": "CamaService.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Cama\\CamaService.cs",
               "RelativeDocumentMoniker": "Services\\Cama\\CamaService.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Cama\\CamaService.cs",
               "RelativeToolTip": "Services\\Cama\\CamaService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAmwKMAAAAAAAAA",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwE8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:56:46.134Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 13,
               "Title": "CamaView.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\CamaView.cs",
               "RelativeDocumentMoniker": "ModelsView\\CamaView.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\CamaView.cs",
               "RelativeToolTip": "ModelsView\\CamaView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:54:56.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 22,
               "Title": "EspecialidadeInterface.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Especialidade\\EspecialidadeInterface.cs",
               "RelativeDocumentMoniker": "Services\\Especialidade\\EspecialidadeInterface.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Especialidade\\EspecialidadeInterface.cs",
               "RelativeToolTip": "Services\\Especialidade\\EspecialidadeInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:53:11.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 24,
               "Title": "EspecialidadeView.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\EspecialidadeView.cs",
               "RelativeDocumentMoniker": "ModelsView\\EspecialidadeView.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\EspecialidadeView.cs",
               "RelativeToolTip": "ModelsView\\EspecialidadeView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:52:09.984Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 25,
               "Title": "FacturaView.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\FacturaView.cs",
               "RelativeDocumentMoniker": "ModelsView\\FacturaView.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\FacturaView.cs",
               "RelativeToolTip": "ModelsView\\FacturaView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:52:01.752Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 26,
               "Title": "Especialidade.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Especialidade.cs",
               "RelativeDocumentMoniker": "Models\\Especialidade.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Especialidade.cs",
               "RelativeToolTip": "Models\\Especialidade.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:50:45.803Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Medico.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Medico.cs",
-              "RelativeDocumentMoniker": "Models\\Medico.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Medico.cs",
-              "RelativeToolTip": "Models\\Medico.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T13:48:16.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Cama.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Cama.cs",
-              "RelativeDocumentMoniker": "Models\\Cama.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Cama.cs",
-              "RelativeToolTip": "Models\\Cama.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T13:46:34.138Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 27,
               "Title": "LeitoView.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\LeitoView.cs",
               "RelativeDocumentMoniker": "ModelsView\\LeitoView.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\LeitoView.cs",
               "RelativeToolTip": "ModelsView\\LeitoView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:45:52.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 16,
               "Title": "Leito.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Leito.cs",
               "RelativeDocumentMoniker": "Models\\Leito.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Leito.cs",
               "RelativeToolTip": "Models\\Leito.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T13:45:27.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Paciente.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Paciente.cs",
-              "RelativeDocumentMoniker": "Models\\Paciente.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Paciente.cs",
-              "RelativeToolTip": "Models\\Paciente.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T13:42:15.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Fornecedor.cs",
-              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Fornecedor.cs",
-              "RelativeDocumentMoniker": "Models\\Fornecedor.cs",
-              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Models\\Fornecedor.cs",
-              "RelativeToolTip": "Models\\Fornecedor.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T12:57:12.216Z"
             },
             {
               "$type": "Document",
@@ -658,82 +406,97 @@
               "RelativeDocumentMoniker": "Services\\Fornecedor\\FornecedorService.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Fornecedor\\FornecedorService.cs",
               "RelativeToolTip": "Services\\Fornecedor\\FornecedorService.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAuwFEAAAAtAAAA",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAuwFEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T12:56:53.694Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 28,
               "Title": "DepartamentoService.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\DepartamentosFuncionarios\\DepartamentoService.cs",
               "RelativeDocumentMoniker": "Services\\DepartamentosFuncionarios\\DepartamentoService.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\DepartamentosFuncionarios\\DepartamentoService.cs",
               "RelativeToolTip": "Services\\DepartamentosFuncionarios\\DepartamentoService.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T11:52:08.398Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "Departamentos.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Departamentos.cs",
               "RelativeDocumentMoniker": "Controllers\\Departamentos.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Departamentos.cs",
               "RelativeToolTip": "Controllers\\Departamentos.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAowDoAAAAAAAAA",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T11:33:19.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T11:33:19.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 23,
               "Title": "Especialidade.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Especialidade.cs",
               "RelativeDocumentMoniker": "Controllers\\Especialidade.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Controllers\\Especialidade.cs",
               "RelativeToolTip": "Controllers\\Especialidade.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAADwv0MAAAAAAAAA",
+              "ViewState": "AgIAACIAAAAAAAAAAADwv0MAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T10:30:58.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 21,
               "Title": "EspecialidadeService.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Especialidade\\EspecialidadeService.cs",
               "RelativeDocumentMoniker": "Services\\Especialidade\\EspecialidadeService.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Especialidade\\EspecialidadeService.cs",
               "RelativeToolTip": "Services\\Especialidade\\EspecialidadeService.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAkwKYAAAAAAAAA",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAkwKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T09:51:11.623Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwCoAAAA4AAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T07:40:56.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 17,
               "Title": "DepartamentoView.cs",
               "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\DepartamentoView.cs",
               "RelativeDocumentMoniker": "ModelsView\\DepartamentoView.cs",
               "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\ModelsView\\DepartamentoView.cs",
               "RelativeToolTip": "ModelsView\\DepartamentoView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T11:34:53.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CargoInterface.cs",
+              "DocumentMoniker": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Cargo\\CargoInterface.cs",
+              "RelativeDocumentMoniker": "Services\\Cargo\\CargoInterface.cs",
+              "ToolTip": "D:\\HolyMan\\Projectos\\API_GestaoHospitalar\\GestaoHospitalar\\Services\\Cargo\\CargoInterface.cs",
+              "RelativeToolTip": "Services\\Cargo\\CargoInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:37:45.789Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         }

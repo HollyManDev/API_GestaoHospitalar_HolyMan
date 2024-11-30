@@ -14,5 +14,7 @@ namespace GestaoHospitalar.Services.ConsultaServices
         Task<ServiceResponse<List<Consulta>>> UpdateConsulta(ConsultaView updateConsulta);
         Task<ServiceResponse<List<Consulta>>> InactivateConsulta(int id);
         Task<ServiceResponse<List<Consulta>>> ActivateConsulta(int id);
+        Task<ServiceResponse<List<Consulta>>> GetConsultaByMedico(int medicoId);
+
     }
 }

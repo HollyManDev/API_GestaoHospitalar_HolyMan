@@ -9,10 +9,9 @@
         public string Endereco { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
+        public string Password { get; set; }
         public string BI { get; set; }
-        public string ContatoEmergenciaNome { get; set; }
-        public string ContatoEmergenciaTelefone { get; set; }
-        public string ContatoEmergenciaRelacao { get; set; }
+        public List<ContatoEmergenciaView> ContatosEmergencia { get; set; }
         public string HistoricoMedico { get; set; }
         public string? Seguro { get; set; }
         public Boolean Status { get; set; }

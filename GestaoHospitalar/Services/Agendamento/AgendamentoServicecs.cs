@@ -3,10 +3,7 @@ using GestaoHospitalar.Models;
 using GestaoHospitalar.ModelsView;
 using GestaoHospitalar.ServerResponse;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace GestaoHospitalar.Services.AgendamentoServices
 {
@@ -85,7 +82,7 @@ namespace GestaoHospitalar.Services.AgendamentoServices
                     TipoAgendamento = newAgendamento.TipoAgendamento,
                     Status = newAgendamento.Status,
                     Observacoes = newAgendamento.Observacoes,
-                    StatusExist = newAgendamento.StatusExist
+                   
                 };
 
                 _context.Agendamentos.Add(agendamento);
@@ -125,7 +122,7 @@ namespace GestaoHospitalar.Services.AgendamentoServices
                     agendamento.TipoAgendamento = updateAgendamento.TipoAgendamento;
                     agendamento.Status = updateAgendamento.Status;
                     agendamento.Observacoes = updateAgendamento.Observacoes;
-                    agendamento.StatusExist = updateAgendamento.StatusExist;
+                   
 
                     _context.Agendamentos.Update(agendamento);
                     await _context.SaveChangesAsync();
@@ -157,7 +154,7 @@ namespace GestaoHospitalar.Services.AgendamentoServices
                 }
                 else
                 {
-                    agendamento.StatusExist = false;
+                   
                     _context.Agendamentos.Update(agendamento);
                     await _context.SaveChangesAsync();
                     serviceResponse.Data = await _context.Agendamentos.ToListAsync();
@@ -188,7 +185,7 @@ namespace GestaoHospitalar.Services.AgendamentoServices
                 }
                 else
                 {
-                    agendamento.StatusExist = true;
+                    
                     _context.Agendamentos.Update(agendamento);
                     await _context.SaveChangesAsync();
                     serviceResponse.Data = await _context.Agendamentos.ToListAsync();
@@ -202,5 +199,37 @@ namespace GestaoHospitalar.Services.AgendamentoServices
 
             return serviceResponse;
         }
+
+        public async Task<ServiceResponse<List<Agendamento>>> GetAgendamentosByMedico(int medicoId)
+        {
+            var serviceResponse = new ServiceResponse<List<Agendamento>>();
+
+            try
+            {
+                var agendamentos = await _context.Agendamentos
+                    .Where(a => a.MedicoID == medicoId)
+                    .Include(a => a.Paciente) // Inclua relações necessárias
+                    .Include(a => a.Medico)
+                    .ToListAsync();
+
+                if (!agendamentos.Any())
+                {
+                    serviceResponse.menssage = "No appointments found for this doctor!";
+                    serviceResponse.Success = false;
+                }
+                else
+                {
+                    serviceResponse.Data = agendamentos;
+                }
+            }
+            catch (Exception ex)
+            {
+                serviceResponse.menssage = ex.Message;
+                serviceResponse.Success = false;
+            }
+
+            return serviceResponse;
+        }
+
     }
 }

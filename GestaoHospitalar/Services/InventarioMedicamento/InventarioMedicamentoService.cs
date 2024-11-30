@@ -83,7 +83,8 @@ namespace GestaoHospitalar.Services.InventarioMedicamentoServices
                     Nome = newInventarioMedicamento.Nome,
                     Quantidade = newInventarioMedicamento.Quantidade,
                     DataValidade = newInventarioMedicamento.DataValidade,
-                    FornecedorID = newInventarioMedicamento.FornecedorID
+                    FornecedorID = newInventarioMedicamento.FornecedorID,
+                    Status = true
                 };
 
                 _context.InventarioMedicamentos.Add(inventarioMedicamento);
@@ -121,6 +122,7 @@ namespace GestaoHospitalar.Services.InventarioMedicamentoServices
                     inventarioMedicamento.Quantidade = updateInventarioMedicamento.Quantidade;
                     inventarioMedicamento.DataValidade = updateInventarioMedicamento.DataValidade;
                     inventarioMedicamento.FornecedorID = updateInventarioMedicamento.FornecedorID;
+                    inventarioMedicamento.Status = updateInventarioMedicamento.Status;
 
                     _context.InventarioMedicamentos.Update(inventarioMedicamento);
                     await _context.SaveChangesAsync();
@@ -152,8 +154,7 @@ namespace GestaoHospitalar.Services.InventarioMedicamentoServices
                 }
                 else
                 {
-                    // Se você tiver um campo de Status na sua classe InventarioMedicamento, defina-o aqui.
-                    // inventarioMedicamento.Status = false;
+                    inventarioMedicamento.Status = false;
                     _context.InventarioMedicamentos.Update(inventarioMedicamento);
                     await _context.SaveChangesAsync();
                     serviceResponse.Data = await _context.InventarioMedicamentos.ToListAsync();
@@ -184,8 +185,7 @@ namespace GestaoHospitalar.Services.InventarioMedicamentoServices
                 }
                 else
                 {
-                    // Se você tiver um campo de Status na sua classe InventarioMedicamento, defina-o aqui.
-                    // inventarioMedicamento.Status = true;
+                    inventarioMedicamento.Status = true;
                     _context.InventarioMedicamentos.Update(inventarioMedicamento);
                     await _context.SaveChangesAsync();
                     serviceResponse.Data = await _context.InventarioMedicamentos.ToListAsync();

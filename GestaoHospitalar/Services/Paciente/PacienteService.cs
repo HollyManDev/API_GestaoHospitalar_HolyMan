@@ -76,6 +76,7 @@ namespace GestaoHospitalar.Services.PacienteServices
 
             try
             {
+                // Criação do paciente
                 var paciente = new Paciente
                 {
                     Nome = newPaciente.Nome,
@@ -84,19 +85,32 @@ namespace GestaoHospitalar.Services.PacienteServices
                     Endereco = newPaciente.Endereco,
                     Telefone = newPaciente.Telefone,
                     Email = newPaciente.Email,
+                    Password ="paciente12",
                     BI = newPaciente.BI,
-                    ContatoEmergenciaNome = newPaciente.ContatoEmergenciaNome,
-                    ContatoEmergenciaTelefone = newPaciente.ContatoEmergenciaTelefone,
-                    ContatoEmergenciaRelacao = newPaciente.ContatoEmergenciaRelacao,
-                    HistoricoMedico = newPaciente.HistoricoMedico,
-                    Seguro = newPaciente.Seguro,
+                    HistoricoMedico = newPaciente.HistoricoMedico, // Pode ser null
+                    Seguro = newPaciente.Seguro, // Pode ser null
                     Status = newPaciente.Status,
                     LeitoID = newPaciente.Leito // Opcional
                 };
 
+                // Contatos de emergência são opcionais
+                if (newPaciente.ContatosEmergencia != null && newPaciente.ContatosEmergencia.Count > 0)
+                {
+                    foreach (var contato in newPaciente.ContatosEmergencia)
+                    {
+                        paciente.ContatosEmergencia.Add(new ContatoEmergencia
+                        {
+                            ContatoEmergenciaNome = contato.ContatoEmergenciaNome,
+                            ContatoEmergenciaTelefone = contato.ContatoEmergenciaTelefone,
+                            ContatoEmergenciaRelacao = contato.ContatoEmergenciaRelacao
+                        });
+                    }
+                }
+
                 _context.Pacientes.Add(paciente);
                 await _context.SaveChangesAsync();
-                serviceResponse.Data = await _context.Pacientes.ToListAsync();
+
+                serviceResponse.Data = await _context.Pacientes.Include(p => p.ContatosEmergencia).ToListAsync();
             }
             catch (Exception ex)
             {
@@ -106,6 +120,8 @@ namespace GestaoHospitalar.Services.PacienteServices
 
             return serviceResponse;
         }
+
+
 
         public async Task<ServiceResponse<List<Paciente>>> UpdatePaciente(PacienteView updatePaciente)
         {
@@ -113,18 +129,21 @@ namespace GestaoHospitalar.Services.PacienteServices
 
             try
             {
+                // Buscar o paciente no banco de dados
                 var paciente = await _context.Pacientes
+                    .Include(p => p.ContatosEmergencia) // Incluindo contatos de emergência
                     .AsNoTracking()
                     .FirstOrDefaultAsync(p => p.PacienteID == updatePaciente.PacienteID);
 
                 if (paciente == null)
                 {
                     serviceResponse.Data = null;
-                    serviceResponse.menssage = "Paciente not found!";
+                    serviceResponse.menssage = "Paciente não encontrado!";
                     serviceResponse.Success = false;
                 }
                 else
                 {
+                    // Atualizando os campos do paciente
                     paciente.Nome = updatePaciente.Nome;
                     paciente.DataNascimento = updatePaciente.DataNascimento;
                     paciente.Sexo = updatePaciente.Sexo;
@@ -132,17 +151,35 @@ namespace GestaoHospitalar.Services.PacienteServices
                     paciente.Telefone = updatePaciente.Telefone;
                     paciente.Email = updatePaciente.Email;
                     paciente.BI = updatePaciente.BI;
-                    paciente.ContatoEmergenciaNome = updatePaciente.ContatoEmergenciaNome;
-                    paciente.ContatoEmergenciaTelefone = updatePaciente.ContatoEmergenciaTelefone;
-                    paciente.ContatoEmergenciaRelacao = updatePaciente.ContatoEmergenciaRelacao;
                     paciente.HistoricoMedico = updatePaciente.HistoricoMedico;
                     paciente.Seguro = updatePaciente.Seguro;
                     paciente.Status = updatePaciente.Status;
                     paciente.LeitoID = updatePaciente.Leito; // Opcional
 
+                    // Atualizando os contatos de emergência (se houver)
+                    if (updatePaciente.ContatosEmergencia != null && updatePaciente.ContatosEmergencia.Count > 0)
+                    {
+                        // Primeiro, removendo os contatos de emergência antigos
+                        _context.ContatoEmergencia.RemoveRange(paciente.ContatosEmergencia);
+
+                        // Em seguida, adicionando os novos contatos
+                        foreach (var contato in updatePaciente.ContatosEmergencia)
+                        {
+                            paciente.ContatosEmergencia.Add(new ContatoEmergencia
+                            {
+                                ContatoEmergenciaNome = contato.ContatoEmergenciaNome,
+                                ContatoEmergenciaTelefone = contato.ContatoEmergenciaTelefone,
+                                ContatoEmergenciaRelacao = contato.ContatoEmergenciaRelacao
+                            });
+                        }
+                    }
+
+                    // Atualizando o paciente no banco de dados
                     _context.Pacientes.Update(paciente);
                     await _context.SaveChangesAsync();
-                    serviceResponse.Data = await _context.Pacientes.ToListAsync();
+
+                    // Retornando todos os pacientes, incluindo os novos contatos de emergência
+                    serviceResponse.Data = await _context.Pacientes.Include(p => p.ContatosEmergencia).ToListAsync();
                 }
             }
             catch (Exception ex)
@@ -153,6 +190,7 @@ namespace GestaoHospitalar.Services.PacienteServices
 
             return serviceResponse;
         }
+
 
         public async Task<ServiceResponse<List<Paciente>>> InactivatePaciente(int id)
         {

@@ -14,5 +14,7 @@ namespace GestaoHospitalar.Services.AgendamentoServices
         Task<ServiceResponse<List<Agendamento>>> UpdateAgendamento(AgendamentoView updateAgendamento);
         Task<ServiceResponse<List<Agendamento>>> InactivateAgendamento(int id);
         Task<ServiceResponse<List<Agendamento>>> ActivateAgendamento(int id);
+        Task<ServiceResponse<List<Agendamento>>> GetAgendamentosByMedico(int medicoId);
+
     }
 }

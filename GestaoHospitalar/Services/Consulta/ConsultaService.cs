@@ -204,5 +204,37 @@ namespace GestaoHospitalar.Services.ConsultaServices
 
             return serviceResponse;
         }
+
+        public async Task<ServiceResponse<List<Consulta>>> GetConsultaByMedico(int medicoId)
+        {
+            var serviceResponse = new ServiceResponse<List<Consulta>>();
+
+            try
+            {
+                var consultas = await _context.Consultas
+                    .Where(a => a.MedicoID == medicoId)
+                    .Include(a => a.Paciente) 
+                    .Include(a => a.Medico)
+                    .ToListAsync();
+
+                if (!consultas.Any())
+                {
+                    serviceResponse.menssage = "No appointments found for this doctor!";
+                    serviceResponse.Success = false;
+                }
+                else
+                {
+                    serviceResponse.Data = consultas;
+                }
+            }
+            catch (Exception ex)
+            {
+                serviceResponse.menssage = ex.Message;
+                serviceResponse.Success = false;
+            }
+
+            return serviceResponse;
+        }
+
     }
 }

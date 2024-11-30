@@ -47,9 +47,6 @@ namespace GestaoHospitalar.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("StatusExist")
-                        .HasColumnType("bit");
-
                     b.Property<string>("TipoAgendamento")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -75,7 +72,7 @@ namespace GestaoHospitalar.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("LeitoID")
+                    b.Property<int?>("LeitoID")
                         .HasColumnType("int");
 
                     b.Property<bool>("Status")
@@ -86,6 +83,26 @@ namespace GestaoHospitalar.Migrations
                     b.HasIndex("LeitoID");
 
                     b.ToTable("Camas");
+                });
+
+            modelBuilder.Entity("GestaoHospitalar.Models.Cargo", b =>
+                {
+                    b.Property<int>("CargoID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CargoID"));
+
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("CargoID");
+
+                    b.ToTable("Cargos");
                 });
 
             modelBuilder.Entity("GestaoHospitalar.Models.Consulta", b =>
@@ -132,6 +149,36 @@ namespace GestaoHospitalar.Migrations
                     b.HasIndex("PacienteID");
 
                     b.ToTable("Consultas");
+                });
+
+            modelBuilder.Entity("GestaoHospitalar.Models.ContatoEmergencia", b =>
+                {
+                    b.Property<int>("ContatoEmergenciaID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContatoEmergenciaID"));
+
+                    b.Property<string>("ContatoEmergenciaNome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ContatoEmergenciaRelacao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ContatoEmergenciaTelefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PacienteID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ContatoEmergenciaID");
+
+                    b.HasIndex("PacienteID");
+
+                    b.ToTable("ContatoEmergencia");
                 });
 
             modelBuilder.Entity("GestaoHospitalar.Models.DepartamentosFuncionarios", b =>
@@ -358,16 +405,11 @@ namespace GestaoHospitalar.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FuncionarioID"));
 
-                    b.Property<string>("Cargo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("CargoID")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("DataContratacao")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("Departamento")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("DepartamentoID")
                         .HasColumnType("int");
@@ -380,18 +422,24 @@ namespace GestaoHospitalar.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Genero")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Telefone")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("FuncionarioID");
+
+                    b.HasIndex("CargoID");
 
                     b.HasIndex("DepartamentoID");
 
@@ -480,6 +528,9 @@ namespace GestaoHospitalar.Migrations
                     b.Property<int>("Quantidade")
                         .HasColumnType("int");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
                     b.HasKey("MedicamentoID");
 
                     b.HasIndex("FornecedorID");
@@ -536,6 +587,10 @@ namespace GestaoHospitalar.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("Status")
                         .HasColumnType("bit");
 
@@ -550,6 +605,30 @@ namespace GestaoHospitalar.Migrations
                     b.ToTable("Medicos");
                 });
 
+            modelBuilder.Entity("GestaoHospitalar.Models.Outro", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Type")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Outros");
+                });
+
             modelBuilder.Entity("GestaoHospitalar.Models.Paciente", b =>
                 {
                     b.Property<int>("PacienteID")
@@ -559,18 +638,6 @@ namespace GestaoHospitalar.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PacienteID"));
 
                     b.Property<string>("BI")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ContatoEmergenciaNome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ContatoEmergenciaRelacao")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ContatoEmergenciaTelefone")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -586,13 +653,16 @@ namespace GestaoHospitalar.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HistoricoMedico")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("LeitoID")
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -742,6 +812,28 @@ namespace GestaoHospitalar.Migrations
                     b.ToTable("ResultadosExames");
                 });
 
+            modelBuilder.Entity("GestaoHospitalar.Models.TelefoneFuncionario", b =>
+                {
+                    b.Property<int>("TelefoneID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TelefoneID"));
+
+                    b.Property<int>("FuncionarioID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TelefoneID");
+
+                    b.HasIndex("FuncionarioID");
+
+                    b.ToTable("TelefoneFuncionario");
+                });
+
             modelBuilder.Entity("GestaoHospitalar.Models.Agendamento", b =>
                 {
                     b.HasOne("GestaoHospitalar.Models.Medico", "Medico")
@@ -765,9 +857,7 @@ namespace GestaoHospitalar.Migrations
                 {
                     b.HasOne("GestaoHospitalar.Models.Leito", "Leito")
                         .WithMany()
-                        .HasForeignKey("LeitoID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("LeitoID");
 
                     b.Navigation("Leito");
                 });
@@ -787,6 +877,17 @@ namespace GestaoHospitalar.Migrations
                         .IsRequired();
 
                     b.Navigation("Medico");
+
+                    b.Navigation("Paciente");
+                });
+
+            modelBuilder.Entity("GestaoHospitalar.Models.ContatoEmergencia", b =>
+                {
+                    b.HasOne("GestaoHospitalar.Models.Paciente", "Paciente")
+                        .WithMany("ContatosEmergencia")
+                        .HasForeignKey("PacienteID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Paciente");
                 });
@@ -830,11 +931,19 @@ namespace GestaoHospitalar.Migrations
 
             modelBuilder.Entity("GestaoHospitalar.Models.Funcionario", b =>
                 {
+                    b.HasOne("GestaoHospitalar.Models.Cargo", "cargo")
+                        .WithMany("Funcionarios")
+                        .HasForeignKey("CargoID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("GestaoHospitalar.Models.DepartamentosFuncionarios", "departamentoFuncionario")
                         .WithMany()
                         .HasForeignKey("DepartamentoID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("cargo");
 
                     b.Navigation("departamentoFuncionario");
                 });
@@ -949,6 +1058,22 @@ namespace GestaoHospitalar.Migrations
                     b.Navigation("Paciente");
                 });
 
+            modelBuilder.Entity("GestaoHospitalar.Models.TelefoneFuncionario", b =>
+                {
+                    b.HasOne("GestaoHospitalar.Models.Funcionario", "Funcionario")
+                        .WithMany("Telefones")
+                        .HasForeignKey("FuncionarioID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Funcionario");
+                });
+
+            modelBuilder.Entity("GestaoHospitalar.Models.Cargo", b =>
+                {
+                    b.Navigation("Funcionarios");
+                });
+
             modelBuilder.Entity("GestaoHospitalar.Models.Especialidade", b =>
                 {
                     b.Navigation("Medicos");
@@ -967,6 +1092,11 @@ namespace GestaoHospitalar.Migrations
             modelBuilder.Entity("GestaoHospitalar.Models.Fornecedor", b =>
                 {
                     b.Navigation("InventarioMedicamentos");
+                });
+
+            modelBuilder.Entity("GestaoHospitalar.Models.Funcionario", b =>
+                {
+                    b.Navigation("Telefones");
                 });
 
             modelBuilder.Entity("GestaoHospitalar.Models.InventarioMedicamento", b =>
@@ -993,6 +1123,8 @@ namespace GestaoHospitalar.Migrations
                     b.Navigation("Agendamentos");
 
                     b.Navigation("Consultas");
+
+                    b.Navigation("ContatosEmergencia");
 
                     b.Navigation("Exames");
 

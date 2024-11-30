@@ -9,8 +9,6 @@
         public string TipoAgendamento { get; set; }
         public string Status { get; set; }
         public string Observacoes { get; set; }
-        public Boolean StatusExist { get; set; }
-
 
     }
 }

@@ -22,6 +22,12 @@ using GestaoHospitalar.Services.PrescricaoServices;
 using GestaoHospitalar.Services.ReciboServices;
 using GestaoHospitalar.Services.ResultadoExameServices;
 using GestaoHospitalar.Services.CamaServices;
+using GestaoHospitalar.Services.CargoServices;
+using GestaoHospitalar.Services;
+using GestaoHospitalar.Services.ContatoEmergenciaServices;
+using GestaoHospitalar.Services.ContactoEmergencia;
+using GestaoHospitalar.Services.TelefoneFuncionarioServices;
+using GestaoHospitalar.Services.OutroServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,6 +45,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<PacienteInterface, PacienteService>();
 builder.Services.AddScoped<DepartamentoInterface, DepartamentoService>();
 builder.Services.AddScoped<FuncionarioInterface, FuncionarioService>();
+builder.Services.AddScoped<TelefoneFuncionarioInterface, TelefoneFuncionarioService>();
+builder.Services.AddScoped<CargoInterface, CargoService>();
 builder.Services.AddScoped<LeitoInterface, LeitoService>();
 builder.Services.AddScoped<CamaInterface,CamaService>();
 builder.Services.AddScoped<MedicoInterface, MedicoService>();
@@ -56,6 +64,8 @@ builder.Services.AddScoped<InventarioMedicamentoInterface, InventarioMedicamento
 builder.Services.AddScoped<FornecedorInterface, FornecedorService>();
 builder.Services.AddScoped<EquipamentoMedicoInterface, EquipamentoMedicoService>();
 builder.Services.AddScoped<LeitoInterface, LeitoService>();
+builder.Services.AddScoped<contatoEmergenciaInterface, ContatoEmergenciaService>();
+builder.Services.AddScoped<OutroInterface, OutroService>();
 //builder.Services.AddScoped<HistoricoVisitaInterface, HistoricoVisitaService>();
 
 // Configuração do DbContext para o Entity Framework Core

@@ -1,0 +1,3322 @@
+[
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.AgendamentoController",
+    "Method": "GetAgendamentos",
+    "RelativePath": "api/Agendamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Agendamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.AgendamentoController",
+    "Method": "CreateAgendamento",
+    "RelativePath": "api/Agendamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newAgendamento",
+        "Type": "GestaoHospitalar.ModelsView.AgendamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Agendamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.AgendamentoController",
+    "Method": "UpdateAgendamento",
+    "RelativePath": "api/Agendamento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateAgendamento",
+        "Type": "GestaoHospitalar.ModelsView.AgendamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Agendamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.AgendamentoController",
+    "Method": "FindAgendamento",
+    "RelativePath": "api/Agendamento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Agendamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.AgendamentoController",
+    "Method": "ActivateAgendamento",
+    "RelativePath": "api/Agendamento/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Agendamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.AgendamentoController",
+    "Method": "GetAgendamentosByMedico",
+    "RelativePath": "api/Agendamento/ByMedico/{medicoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Agendamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.AgendamentoController",
+    "Method": "InactivateAgendamento",
+    "RelativePath": "api/Agendamento/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agend",
+        "Type": "GestaoHospitalar.ModelsView.AgendamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Agendamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/Authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "GestaoHospitalar.ModelsView.UserAuthentication",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.ModelsView.UserAuthentication, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CamaController",
+    "Method": "GetCamas",
+    "RelativePath": "api/Cama",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Cama, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CamaController",
+    "Method": "CreateCama",
+    "RelativePath": "api/Cama",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "camaView",
+        "Type": "GestaoHospitalar.ModelsView.CamaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Cama, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CamaController",
+    "Method": "UpdateCama",
+    "RelativePath": "api/Cama",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "camaView",
+        "Type": "GestaoHospitalar.ModelsView.CamaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Cama, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CamaController",
+    "Method": "GetCama",
+    "RelativePath": "api/Cama/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Cama, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CamaController",
+    "Method": "DeleteCama",
+    "RelativePath": "api/Cama/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "camaView",
+        "Type": "GestaoHospitalar.ModelsView.CamaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Cama, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CargoController",
+    "Method": "GetCargos",
+    "RelativePath": "api/Cargo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Cargo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CargoController",
+    "Method": "CreateCargo",
+    "RelativePath": "api/Cargo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leitoView",
+        "Type": "GestaoHospitalar.ModelsView.CargoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Cargo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CargoController",
+    "Method": "UpdateCargo",
+    "RelativePath": "api/Cargo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leitoView",
+        "Type": "GestaoHospitalar.ModelsView.CargoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Cargo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CargoController",
+    "Method": "GetCargo",
+    "RelativePath": "api/Cargo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Cargo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.CargoController",
+    "Method": "DeleteCargo",
+    "RelativePath": "api/Cargo/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leito",
+        "Type": "GestaoHospitalar.ModelsView.CargoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Cargo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ConsultaController",
+    "Method": "GetConsultas",
+    "RelativePath": "api/Consulta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Consulta, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ConsultaController",
+    "Method": "CreateConsulta",
+    "RelativePath": "api/Consulta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newConsulta",
+        "Type": "GestaoHospitalar.ModelsView.ConsultaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Consulta, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ConsultaController",
+    "Method": "UpdateConsulta",
+    "RelativePath": "api/Consulta",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateConsulta",
+        "Type": "GestaoHospitalar.ModelsView.ConsultaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Consulta, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ConsultaController",
+    "Method": "FindConsulta",
+    "RelativePath": "api/Consulta/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Consulta, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ConsultaController",
+    "Method": "ActivateConsulta",
+    "RelativePath": "api/Consulta/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Consulta, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ConsultaController",
+    "Method": "GetConsultaByMedico",
+    "RelativePath": "api/Consulta/ByMedico/{medicoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Agendamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ConsultaController",
+    "Method": "InactivateConsulta",
+    "RelativePath": "api/Consulta/Inactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Consulta, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ContatoEmergenciaController",
+    "Method": "GetContatosEmergencia",
+    "RelativePath": "api/ContatoEmergencia",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.ContatoEmergencia, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ContatoEmergenciaController",
+    "Method": "CreateContatoEmergencia",
+    "RelativePath": "api/ContatoEmergencia",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newContatoEmergencia",
+        "Type": "GestaoHospitalar.ModelsView.ContatoEmergenciaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.ContatoEmergencia, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ContatoEmergenciaController",
+    "Method": "UpdateContatoEmergencia",
+    "RelativePath": "api/ContatoEmergencia",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateContatoEmergencia",
+        "Type": "GestaoHospitalar.ModelsView.ContatoEmergenciaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.ContatoEmergencia, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ContatoEmergenciaController",
+    "Method": "FindContatoEmergencia",
+    "RelativePath": "api/ContatoEmergencia/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.ContatoEmergencia, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ContatoEmergenciaController",
+    "Method": "DeleteContatoEmergencia",
+    "RelativePath": "api/ContatoEmergencia/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.ContatoEmergencia, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.DepartamentoController",
+    "Method": "GetDepartamentos",
+    "RelativePath": "api/Departamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.DepartamentosFuncionarios, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.DepartamentoController",
+    "Method": "CreateDepartamento",
+    "RelativePath": "api/Departamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newDepartamento",
+        "Type": "GestaoHospitalar.ModelsView.DepartamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.DepartamentosFuncionarios, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.DepartamentoController",
+    "Method": "UpdateDepartamento",
+    "RelativePath": "api/Departamento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateDepartamento",
+        "Type": "GestaoHospitalar.ModelsView.DepartamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.DepartamentosFuncionarios, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.DepartamentoController",
+    "Method": "FindDepartamento",
+    "RelativePath": "api/Departamento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.DepartamentosFuncionarios, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.DepartamentoController",
+    "Method": "ActivateDepartamento",
+    "RelativePath": "api/Departamento/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.DepartamentosFuncionarios, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.DepartamentoController",
+    "Method": "InactivateDepartamento",
+    "RelativePath": "api/Departamento/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dept",
+        "Type": "GestaoHospitalar.ModelsView.DepartamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.DepartamentosFuncionarios, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EquipamentoMedicoController",
+    "Method": "GetEquipamentosMedicos",
+    "RelativePath": "api/EquipamentoMedico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.EquipamentoMedico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EquipamentoMedicoController",
+    "Method": "PostEquipamentoMedico",
+    "RelativePath": "api/EquipamentoMedico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipamentoMedicoView",
+        "Type": "GestaoHospitalar.ModelsView.EquipamentoMedicoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.EquipamentoMedico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EquipamentoMedicoController",
+    "Method": "PutEquipamentoMedico",
+    "RelativePath": "api/EquipamentoMedico",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipamentoMedicoView",
+        "Type": "GestaoHospitalar.ModelsView.EquipamentoMedicoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.EquipamentoMedico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EquipamentoMedicoController",
+    "Method": "GetEquipamentoMedico",
+    "RelativePath": "api/EquipamentoMedico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.EquipamentoMedico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EquipamentoMedicoController",
+    "Method": "ActivateEquipamentoMedico",
+    "RelativePath": "api/EquipamentoMedico/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.EquipamentoMedico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EquipamentoMedicoController",
+    "Method": "InactivateEquipamentoMedico",
+    "RelativePath": "api/EquipamentoMedico/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipamento",
+        "Type": "GestaoHospitalar.ModelsView.EquipamentoMedicoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.EquipamentoMedico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EspecialidadeController",
+    "Method": "GetEspecialidades",
+    "RelativePath": "api/Especialidade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Especialidade, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EspecialidadeController",
+    "Method": "CreateEspecialidade",
+    "RelativePath": "api/Especialidade",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especialidadeView",
+        "Type": "GestaoHospitalar.ModelsView.EspecialidadeView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Especialidade, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EspecialidadeController",
+    "Method": "UpdateEspecialidade",
+    "RelativePath": "api/Especialidade",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "especialidadeView",
+        "Type": "GestaoHospitalar.ModelsView.EspecialidadeView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Especialidade, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EspecialidadeController",
+    "Method": "GetEspecialidade",
+    "RelativePath": "api/Especialidade/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Especialidade, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.EspecialidadeController",
+    "Method": "DeleteEspecialidade",
+    "RelativePath": "api/Especialidade/Delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "esp",
+        "Type": "GestaoHospitalar.ModelsView.EspecialidadeView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Especialidade, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ExameController",
+    "Method": "GetExames",
+    "RelativePath": "api/Exame",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Exame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ExameController",
+    "Method": "CreateExame",
+    "RelativePath": "api/Exame",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newExame",
+        "Type": "GestaoHospitalar.ModelsView.ExameView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Exame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ExameController",
+    "Method": "UpdateExame",
+    "RelativePath": "api/Exame",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateExame",
+        "Type": "GestaoHospitalar.ModelsView.ExameView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Exame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ExameController",
+    "Method": "FindExame",
+    "RelativePath": "api/Exame/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Exame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ExameController",
+    "Method": "ActivateExame",
+    "RelativePath": "api/Exame/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Exame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ExameController",
+    "Method": "InactivateExame",
+    "RelativePath": "api/Exame/Inactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Exame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaController",
+    "Method": "GetFacturas",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Factura, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaController",
+    "Method": "CreateFactura",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newFactura",
+        "Type": "GestaoHospitalar.ModelsView.FacturaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Factura, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaController",
+    "Method": "UpdateFactura",
+    "RelativePath": "api/Factura",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateFactura",
+        "Type": "GestaoHospitalar.ModelsView.FacturaView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Factura, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaController",
+    "Method": "FindFactura",
+    "RelativePath": "api/Factura/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Factura, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaController",
+    "Method": "ActivateFactura",
+    "RelativePath": "api/Factura/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Factura, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaController",
+    "Method": "InactivateFactura",
+    "RelativePath": "api/Factura/Inactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Factura, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaMedicamentoController",
+    "Method": "GetFacturasMedicamentos",
+    "RelativePath": "api/FacturaMedicamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.FacturaMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaMedicamentoController",
+    "Method": "CreateFacturaMedicamento",
+    "RelativePath": "api/FacturaMedicamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newFacturaMedicamento",
+        "Type": "GestaoHospitalar.ModelsView.FacturaMedicamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.FacturaMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaMedicamentoController",
+    "Method": "UpdateFacturaMedicamento",
+    "RelativePath": "api/FacturaMedicamento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateFacturaMedicamento",
+        "Type": "GestaoHospitalar.ModelsView.FacturaMedicamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.FacturaMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaMedicamentoController",
+    "Method": "FindFacturaMedicamento",
+    "RelativePath": "api/FacturaMedicamento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.FacturaMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaMedicamentoController",
+    "Method": "ActivateFacturaMedicamento",
+    "RelativePath": "api/FacturaMedicamento/activate/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.FacturaMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FacturaMedicamentoController",
+    "Method": "InactivateFacturaMedicamento",
+    "RelativePath": "api/FacturaMedicamento/inactivate/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.FacturaMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FornecedorController",
+    "Method": "GetFornecedores",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Fornecedor, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FornecedorController",
+    "Method": "CreateFornecedor",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newFornecedor",
+        "Type": "GestaoHospitalar.ModelsView.FornecedorView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Fornecedor, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FornecedorController",
+    "Method": "UpdateFornecedor",
+    "RelativePath": "api/Fornecedor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateFornecedor",
+        "Type": "GestaoHospitalar.ModelsView.FornecedorView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Fornecedor, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FornecedorController",
+    "Method": "FindFornecedor",
+    "RelativePath": "api/Fornecedor/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Fornecedor, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FornecedorController",
+    "Method": "ActivateFornecedor",
+    "RelativePath": "api/Fornecedor/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Fornecedor, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FornecedorController",
+    "Method": "InactivateFornecedor",
+    "RelativePath": "api/Fornecedor/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forn",
+        "Type": "GestaoHospitalar.ModelsView.FornecedorView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Fornecedor, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FuncionarioController",
+    "Method": "GetFuncionarios",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Funcionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FuncionarioController",
+    "Method": "CreateFuncionario",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newFuncionario",
+        "Type": "GestaoHospitalar.ModelsView.FuncionarioView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Funcionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FuncionarioController",
+    "Method": "UpdateFuncionario",
+    "RelativePath": "api/Funcionario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateFuncionario",
+        "Type": "GestaoHospitalar.ModelsView.FuncionarioView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Funcionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FuncionarioController",
+    "Method": "FindFuncionario",
+    "RelativePath": "api/Funcionario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Funcionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FuncionarioController",
+    "Method": "ActivateFuncionario",
+    "RelativePath": "api/Funcionario/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Funcionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.FuncionarioController",
+    "Method": "InactivateFuncionario",
+    "RelativePath": "api/Funcionario/Inactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Funcionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.HistoricoAtendimentoController",
+    "Method": "GetHistoricosAtendimento",
+    "RelativePath": "api/HistoricoAtendimento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.HistoricoAtendimento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.HistoricoAtendimentoController",
+    "Method": "CreateHistoricoAtendimento",
+    "RelativePath": "api/HistoricoAtendimento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newHistoricoAtendimento",
+        "Type": "GestaoHospitalar.ModelsView.HistoricoAtendimentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.HistoricoAtendimento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.HistoricoAtendimentoController",
+    "Method": "UpdateHistoricoAtendimento",
+    "RelativePath": "api/HistoricoAtendimento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateHistoricoAtendimento",
+        "Type": "GestaoHospitalar.ModelsView.HistoricoAtendimentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.HistoricoAtendimento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.HistoricoAtendimentoController",
+    "Method": "FindHistoricoAtendimento",
+    "RelativePath": "api/HistoricoAtendimento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.HistoricoAtendimento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.HistoricoAtendimentoController",
+    "Method": "ActivateHistoricoAtendimento",
+    "RelativePath": "api/HistoricoAtendimento/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.HistoricoAtendimento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.HistoricoAtendimentoController",
+    "Method": "InactivateHistoricoAtendimento",
+    "RelativePath": "api/HistoricoAtendimento/Inactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.HistoricoAtendimento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.InventarioMedicamentoController",
+    "Method": "GetInventarioMedicamentos",
+    "RelativePath": "api/InventarioMedicamento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.InventarioMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.InventarioMedicamentoController",
+    "Method": "CreateInventarioMedicamento",
+    "RelativePath": "api/InventarioMedicamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newInventarioMedicamento",
+        "Type": "GestaoHospitalar.ModelsView.InventarioMedicamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.InventarioMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.InventarioMedicamentoController",
+    "Method": "UpdateInventarioMedicamento",
+    "RelativePath": "api/InventarioMedicamento",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateInventarioMedicamento",
+        "Type": "GestaoHospitalar.ModelsView.InventarioMedicamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.InventarioMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.InventarioMedicamentoController",
+    "Method": "FindInventarioMedicamento",
+    "RelativePath": "api/InventarioMedicamento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.InventarioMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.InventarioMedicamentoController",
+    "Method": "ActivateInventarioMedicamento",
+    "RelativePath": "api/InventarioMedicamento/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.InventarioMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.InventarioMedicamentoController",
+    "Method": "InactivateInventarioMedicamento",
+    "RelativePath": "api/InventarioMedicamento/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicamento",
+        "Type": "GestaoHospitalar.ModelsView.InventarioMedicamentoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.InventarioMedicamento, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.LeitoController",
+    "Method": "GetLeitos",
+    "RelativePath": "api/Leito",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Leito, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.LeitoController",
+    "Method": "CreateLeito",
+    "RelativePath": "api/Leito",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leitoView",
+        "Type": "GestaoHospitalar.ModelsView.LeitoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Leito, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.LeitoController",
+    "Method": "UpdateLeito",
+    "RelativePath": "api/Leito",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leitoView",
+        "Type": "GestaoHospitalar.ModelsView.LeitoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Leito, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.LeitoController",
+    "Method": "GetLeito",
+    "RelativePath": "api/Leito/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Leito, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.LeitoController",
+    "Method": "DeleteLeito",
+    "RelativePath": "api/Leito/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leito",
+        "Type": "GestaoHospitalar.ModelsView.LeitoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Leito, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.MedicoController",
+    "Method": "GetMedicos",
+    "RelativePath": "api/Medico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Medico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.MedicoController",
+    "Method": "CreateMedico",
+    "RelativePath": "api/Medico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicoView",
+        "Type": "GestaoHospitalar.ModelsView.MedicoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Medico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.MedicoController",
+    "Method": "UpdateMedico",
+    "RelativePath": "api/Medico",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicoView",
+        "Type": "GestaoHospitalar.ModelsView.MedicoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Medico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.MedicoController",
+    "Method": "GetMedico",
+    "RelativePath": "api/Medico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Medico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.MedicoController",
+    "Method": "DeleteMedico",
+    "RelativePath": "api/Medico/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medico",
+        "Type": "GestaoHospitalar.ModelsView.MedicoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Medico, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.OutroController",
+    "Method": "GetOutros",
+    "RelativePath": "api/Outro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Outro, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.OutroController",
+    "Method": "CreateOutro",
+    "RelativePath": "api/Outro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outroView",
+        "Type": "GestaoHospitalar.ModelsView.OutroView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Outro, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.OutroController",
+    "Method": "UpdateOutro",
+    "RelativePath": "api/Outro",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outroView",
+        "Type": "GestaoHospitalar.ModelsView.OutroView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Outro, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.OutroController",
+    "Method": "GetOutro",
+    "RelativePath": "api/Outro/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Outro, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.OutroController",
+    "Method": "DeleteOutro",
+    "RelativePath": "api/Outro/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "outro",
+        "Type": "GestaoHospitalar.ModelsView.OutroView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Outro, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PacienteController",
+    "Method": "GetPacientes",
+    "RelativePath": "api/Paciente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Paciente, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PacienteController",
+    "Method": "CreatePaciente",
+    "RelativePath": "api/Paciente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPaciente",
+        "Type": "GestaoHospitalar.ModelsView.PacienteView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Paciente, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PacienteController",
+    "Method": "UpdatePaciente",
+    "RelativePath": "api/Paciente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePaciente",
+        "Type": "GestaoHospitalar.ModelsView.PacienteView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Paciente, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PacienteController",
+    "Method": "FindPaciente",
+    "RelativePath": "api/Paciente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Paciente, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PacienteController",
+    "Method": "ActivatePaciente",
+    "RelativePath": "api/Paciente/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Paciente, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PacienteController",
+    "Method": "InactivatePaciente",
+    "RelativePath": "api/Paciente/Inactivate",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "p",
+        "Type": "GestaoHospitalar.ModelsView.PacienteView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Paciente, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PrescricaoController",
+    "Method": "GetPrescricoes",
+    "RelativePath": "api/Prescricao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Prescricao, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PrescricaoController",
+    "Method": "CreatePrescricao",
+    "RelativePath": "api/Prescricao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPrescricao",
+        "Type": "GestaoHospitalar.ModelsView.PrecricaoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Prescricao, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PrescricaoController",
+    "Method": "UpdatePrescricao",
+    "RelativePath": "api/Prescricao",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatePrescricao",
+        "Type": "GestaoHospitalar.ModelsView.PrecricaoView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Prescricao, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PrescricaoController",
+    "Method": "FindPrescricao",
+    "RelativePath": "api/Prescricao/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Prescricao, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PrescricaoController",
+    "Method": "ActivatePrescricao",
+    "RelativePath": "api/Prescricao/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Prescricao, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.PrescricaoController",
+    "Method": "InactivatePrescricao",
+    "RelativePath": "api/Prescricao/Inactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Prescricao, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ReciboController",
+    "Method": "GetRecibos",
+    "RelativePath": "api/Recibo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Recibo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ReciboController",
+    "Method": "CreateRecibo",
+    "RelativePath": "api/Recibo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newRecibo",
+        "Type": "GestaoHospitalar.ModelsView.ReciboView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Recibo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ReciboController",
+    "Method": "UpdateRecibo",
+    "RelativePath": "api/Recibo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateRecibo",
+        "Type": "GestaoHospitalar.ModelsView.ReciboView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Recibo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ReciboController",
+    "Method": "FindRecibo",
+    "RelativePath": "api/Recibo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.Recibo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ReciboController",
+    "Method": "ActivateRecibo",
+    "RelativePath": "api/Recibo/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Recibo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ReciboController",
+    "Method": "InactivateRecibo",
+    "RelativePath": "api/Recibo/Inactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.Recibo, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ResultadoExameController",
+    "Method": "GetResultadosExames",
+    "RelativePath": "api/ResultadoExame",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.ResultadoExame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ResultadoExameController",
+    "Method": "CreateResultadoExame",
+    "RelativePath": "api/ResultadoExame",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newResultadoExame",
+        "Type": "GestaoHospitalar.ModelsView.ResultadoExameView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.ResultadoExame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ResultadoExameController",
+    "Method": "UpdateResultadoExame",
+    "RelativePath": "api/ResultadoExame",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateResultadoExame",
+        "Type": "GestaoHospitalar.ModelsView.ResultadoExameView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.ResultadoExame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ResultadoExameController",
+    "Method": "FindResultadoExame",
+    "RelativePath": "api/ResultadoExame/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.ResultadoExame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ResultadoExameController",
+    "Method": "ActivateResultadoExame",
+    "RelativePath": "api/ResultadoExame/Activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.ResultadoExame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.ResultadoExameController",
+    "Method": "InactivateResultadoExame",
+    "RelativePath": "api/ResultadoExame/Inactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.ResultadoExame, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.TelefoneFuncionarioController",
+    "Method": "GetTelefonesFuncionarios",
+    "RelativePath": "api/TelefoneFuncionario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.TelefoneFuncionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.TelefoneFuncionarioController",
+    "Method": "CreateTelefoneFuncionario",
+    "RelativePath": "api/TelefoneFuncionario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTelefoneFuncionarioView",
+        "Type": "GestaoHospitalar.ModelsView.TelefoneFuncionarioView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.TelefoneFuncionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.TelefoneFuncionarioController",
+    "Method": "UpdateTelefoneFuncionario",
+    "RelativePath": "api/TelefoneFuncionario",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedTelefoneFuncionarioView",
+        "Type": "GestaoHospitalar.ModelsView.TelefoneFuncionarioView",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.TelefoneFuncionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.TelefoneFuncionarioController",
+    "Method": "FindTelefoneFuncionario",
+    "RelativePath": "api/TelefoneFuncionario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[GestaoHospitalar.Models.TelefoneFuncionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "GestaoHospitalar.Controllers.TelefoneFuncionarioController",
+    "Method": "DeleteTelefoneFuncionario",
+    "RelativePath": "api/TelefoneFuncionario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GestaoHospitalar.ServerResponse.ServiceResponse\u00601[[System.Collections.Generic.List\u00601[[GestaoHospitalar.Models.TelefoneFuncionario, GestaoHospitalar, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

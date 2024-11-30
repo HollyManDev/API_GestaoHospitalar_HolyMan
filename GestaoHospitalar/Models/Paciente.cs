@@ -14,16 +14,17 @@ namespace GestaoHospitalar.Models
         public string Endereco { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
+        public string Password{ get; set; }
         public string BI { get; set; }
-        public string ContatoEmergenciaNome { get; set; }
-        public string ContatoEmergenciaTelefone { get; set; }
-        public string ContatoEmergenciaRelacao { get; set; }
-        public string HistoricoMedico { get; set; }
-        public string? Seguro { get; set; }
-        public Boolean Status { get; set; }
 
-        // Relacionamentos
-        public int? LeitoID { get; set; }
+        // Campos opcionais
+        public string? HistoricoMedico { get; set; }  // Nullable
+        public string? Seguro { get; set; }  // Nullable
+        public bool Status { get; set; }
+        public int? LeitoID { get; set; }   // O leito é opcional
+
+        // Contatos de emergência agora são opcionais
+        public List<ContatoEmergencia> ContatosEmergencia { get; set; } = new List<ContatoEmergencia>();
 
         // Relacionamentos
         [ForeignKey("LeitoID")]

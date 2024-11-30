@@ -85,6 +85,7 @@ namespace GestaoHospitalar.Services.MedicoServices
                     EspecialidadeID = newMedico.EspecialidadeID,
                     Telefone = newMedico.Telefone,
                     Email = newMedico.Email,
+                    Password = "medico12",
                     Endereco = newMedico.Endereco,
                     HorarioTrabalho = newMedico.HorarioTrabalho,
                     Status = newMedico.Status,

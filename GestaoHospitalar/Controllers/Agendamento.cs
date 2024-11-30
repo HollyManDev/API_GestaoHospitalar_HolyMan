@@ -43,10 +43,10 @@ namespace GestaoHospitalar.Controllers
             return Ok(await _agendamentoInterface.UpdateAgendamento(updateAgendamento));
         }
 
-        [HttpPut("Inactivate/{id}")]
-        public async Task<ActionResult<ServiceResponse<List<Agendamento>>>> InactivateAgendamento(int id)
-        {
-            return Ok(await _agendamentoInterface.InactivateAgendamento(id));
+        [HttpPut("Inactivate")]
+        public async Task<ActionResult<ServiceResponse<List<Agendamento>>>> InactivateAgendamento(AgendamentoView agend)
+        { 
+            return Ok(await _agendamentoInterface.InactivateAgendamento(agend.AgendamentoID));
         }
 
         [HttpPut("Activate/{id}")]
@@ -54,5 +54,11 @@ namespace GestaoHospitalar.Controllers
         {
             return Ok(await _agendamentoInterface.ActivateAgendamento(id));
         }
+       [HttpGet("ByMedico/{medicoId}")]
+            public async Task<ActionResult<ServiceResponse<List<Agendamento>>>> GetAgendamentosByMedico(int medicoId)
+            {
+                return Ok(await _agendamentoInterface.GetAgendamentosByMedico(medicoId));
+            }
+
     }
 }

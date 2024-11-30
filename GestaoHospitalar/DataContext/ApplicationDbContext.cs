@@ -12,6 +12,7 @@ namespace GestaoHospitalar.DataContext
 
         // DbSets for your entities
         public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<ContatoEmergencia> ContatoEmergencia { get; set; }
         public DbSet<Medico> Medicos { get; set; }
         public DbSet<Cama> Camas { get; set; }
         public DbSet<Especialidade> Especialidades { get; set; }
@@ -20,6 +21,9 @@ namespace GestaoHospitalar.DataContext
         public DbSet<ResultadoExame> ResultadosExames { get; set; }
         public DbSet<Prescricao> Prescricoes { get; set; }
         public DbSet<Funcionario> Funcionarios { get; set; }
+        public DbSet<TelefoneFuncionario> TelefoneFuncionario { get; set; }
+        public DbSet<Cargo> Cargos { get; set; }
+       
         public DbSet<Agendamento> Agendamentos { get; set; }
         public DbSet<Factura> Faturas { get; set; }  
         public DbSet<Recibo> Recibos { get; set; }
@@ -32,8 +36,9 @@ namespace GestaoHospitalar.DataContext
       
         public DbSet<HistoricoVisita> HistoricoVisitas { get; set; }
         public DbSet<DepartamentosFuncionarios> DepartamentosFuncionarios { get; set; }
+        public DbSet<Outro> Outros { get; set; }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
+        //{ValuesController.cs
         //    // Configurações para Paciente
         //    modelBuilder.Entity<Paciente>()
         //        .HasKey(p => p.PacienteID);
